@@ -13,22 +13,22 @@ export default async function Home() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen p-6">
+    <div className="flex flex-col items-center justify-center h-screen p-6 bg-gradient-to-tl from-blue-200 via-blue-500 to-blue-800">
       <div className="flex-1 flex flex-col items-center justify-center">
         <div className="mb-8">
           <h1 className="text-4xl md:text-5xl font-bold text-center">
             Welcome to <br />
-            <span className="text-blue-700 text-5xl md:text-6xl">
+            <span className="text-white font-bold text-5xl md:text-6xl animate-pulse">
               T-JP
             </span>
           </h1>
         </div>
 
         <div className="text-center max-w-xl flex flex-col items-center justify-center">
-        <h1 className="text-xl md:text-2xl font-bold mb-4 text-blue-700">
+        <h1 className="text-xl md:text-2xl font-bold mb-4  text-white">
       📅 Seamless & Hassle-Free Appointment Booking
     </h1>
-    <p className="text-md md:text-lg mb-6 md:max-w-xl font-serif">
+    <p className="text-md md:text-lg mb-6 md:max-w-xl font-serif text-white">
       Book your medical appointments effortlessly with our easy-to-use platform. Choose your preferred doctor, select a convenient time, and receive quality care—anytime, anywhere.
     </p>
 
@@ -51,7 +51,7 @@ export default async function Home() {
                 <Link href="/sign-in">
                   <Button
                     variant="outline"
-                    className="md:text-base hover:text-nlue-600"
+                    className="md:text-base hover:bg-blue-600 hover:border-blue-600 hover:text-white"
                   >
                     Login to account
                   </Button>
@@ -62,8 +62,8 @@ export default async function Home() {
         </div>
       </div>
       <footer className="mt-8">
-        <p className="text-center text-sm font-serif">
-          &copy; 2024 T-JP Hospital Management System. All rights reserved.
+        <p className="text-center text-lg font-serif text-white">
+          &copy; 2025 T-JP Hospital Management System. All rights reserved by FDN.
         </p>
       </footer>
     </div>
