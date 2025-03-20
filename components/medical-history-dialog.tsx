@@ -28,9 +28,10 @@ export const MedicalHistoryDialog = async ({
       </DialogTrigger>
       <DialogContent className="max-h-[90%] max-w-[425px] md:max-w-2xl 2xl:max-w-4xl p-8 overflow-y-auto">
         <DiagnosisContainer
-          id={id}
+          id={id ? String(id) : ""}
+
           patientId={patientId!}
-          doctor_id={doctor_id!}
+          doctorId={String(doctor_id)} 
         />
 
         <p>Diagnosis container form</p>
