@@ -25,10 +25,12 @@ export default async function Home() {
         </div>
 
         <div className="text-center max-w-xl flex flex-col items-center justify-center">
-          <p className="mb-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse maxime
-            quae numquam possimus dolor. Illum, ipsam laudantium. Reprehenderit
-          </p>
+        <h1 className="text-xl md:text-2xl font-bold mb-4 text-blue-700">
+      📅 Seamless & Hassle-Free Appointment Booking
+    </h1>
+    <p className="text-md md:text-lg mb-6 md:max-w-xl font-serif">
+      Book your medical appointments effortlessly with our easy-to-use platform. Choose your preferred doctor, select a convenient time, and receive quality care—anytime, anywhere.
+    </p>
 
           <div className="flex gap-4">
             {userId ? (
@@ -60,7 +62,7 @@ export default async function Home() {
         </div>
       </div>
       <footer className="mt-8">
-        <p className="text-center text-sm">
+        <p className="text-center text-sm font-serif">
           &copy; 2024 T-JP Hospital Management System. All rights reserved.
         </p>
       </footer>
